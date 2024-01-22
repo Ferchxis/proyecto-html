@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="imagen/x-icon">
+  <title>El tigre</title>
+  <style>
+    body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #04AA6D;
+    }
+
+    h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #92a4ff;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 33vw;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .centrado {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+    }
+</style>
+
+
+</head>
+<body>
+
+  <header>
+      <h1>El tigre Tomi</h1>
+    <nav>
+        
+     <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="preferencias.html">preferencias</a></li>
+        <li><a class="active" href="audiovisuales.html">audiovisuales</a></li>
+        <li><a href="contacto.html">contacto</a></li>
+        
+      </ul>
+    </nav>
+
+  </header>
+  
+     <div class="centrado">
+     <video src="assets/videos/video1.mp4" autoplay muted width="700" ></video>
+     </div>
+     <br>
+     <br>
+
+    <div class="centrado">
+    <audio src="assets/audios/audio (2).mp3" autoplay controls ></audio>
+    </div>
+    <br>
+    <br>
+    <section class="centrado">
+
+      <div class="oxy-gallery-item">
+        <a href="/assets/imgs/img1.jpeg" target="_blank"><img src="/assets/imgs/img1.jpeg" width="400" alt="Tomi imagen 1"> </a>
+        <div class="desc">Tomi 1</div>
+      </div>
+
+      <div class="oxy-gallery-item">
+
+        <a href="/assets/imgs/img5.jpeg"  target="_blank"><img src="/assets/imgs/img5.jpeg"  width=400 alt=" Tomi imagen 2" ></a>
+        <div class="desc">Tomi 2</div>
+
+      </div>
+  
+      <div class="oxy-gallery-item">
+        <a href="/assets/imgs/img2.jpeg" target="_blank"><img src="/assets/imgs/img2.jpeg" width="400"  alt="Tomi imagen 3"> </a>
+        <div class="desc">Tomi 2</div>
+    
+      </div>
+    
+    </section>
+
+
+  <footer class="footer">
+    <p>Derechos reservados &copy; 2024-AM</p>
+  </footer>
+
+  
+</body>
+</html>
